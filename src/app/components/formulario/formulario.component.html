@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketsShop</title>
+    <link rel="stylesheet" href="./formulario.component.css">
+</head>
+<body>
+        <div class="titulo">
+            <h1>SingInt</h1>
+        </div>
+        <br>
+
+        <div class="datos">
+            <input type="text" name="local" class="nom" id="name" placeholder="Nombre" [(ngModel)]='nombre'><br>
+            <br>
+            <input type="text" name="local" class="appe" id="name2" placeholder="Apellido" [(ngModel)]='apellido'><br>
+            <br>
+            <input type="text" name="local" class="direc" id="lugar" placeholder="Direccion" [(ngModel)]='direccion'><br>
+            <br>
+            <input type="text" name="local" class="tel" id="cel" placeholder="Celular" [(ngModel)]='celular'><br>
+            <br>
+            <input type="text" name="local" id="ed" id="eda" placeholder="Edad" [(ngModel)]='edad'><br>
+            
+            <div class="boton">
+                <br>
+                <button (click)="navegar()">Recibo</button><br>
+            </div>
+        </div>
+</body>
+</html>

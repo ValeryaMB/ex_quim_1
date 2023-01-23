@@ -1,0 +1,24 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    background-color:rgb(163, 106, 192);
+    text-align: center;
+}
+
+.titulo{
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.datos{
+    background-color: rgb(170, 130, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    height: 260px;
+    width: 250px;
+    display:contents;
+    text-align: center;
+    padding-top: 40px;
+}
